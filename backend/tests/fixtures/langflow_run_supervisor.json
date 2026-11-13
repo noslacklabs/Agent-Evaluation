@@ -1,0 +1,215 @@
+{
+ "session_id": "fx2",
+ "outputs": [
+  {
+   "inputs": {
+    "input_value": "ask the Analyst to use evaluate_expression"
+   },
+   "outputs": [
+    {
+     "results": {
+      "message": {
+       "text_key": "text",
+       "data": {
+        "timestamp": "2026-11-13 16:15:06.719748 UTC",
+        "sender": "Machine",
+        "sender_name": "AI",
+        "session_id": "fx2",
+        "context_id": "",
+        "text": "Final answer: {\"coworkai_agent\": \"Analyst\", \"input\": \"ask the Analyst to use evaluate_expression\", \"output\": \"Final answer: {\\\"error\\\": \\\"Invalid expression: invalid syntax (<unknown>, line 1)\\\", \\\"input\\\": \\\"ask the Analyst to use evaluate_expression\\\"}\", \"tools_called\": [{\"name\": \"evaluate_expression\", \"input_parameters\": {\"expression\": \"ask the Analyst to use evaluate_expression\"}, \"output\": {\"error\": \"Invalid expression: invalid syntax (<unknown>, line 1)\", \"input\": \"ask the Analyst to use evaluate_expression\"}, \"agent\": \"Analyst\"}]}",
+        "files": [],
+        "error": false,
+        "edit": false,
+        "properties": {
+         "text_color": null,
+         "background_color": null,
+         "edited": false,
+         "source": {
+          "id": "ext:coworkai:OrchestratorAgentComponent@extra-DAaKl",
+          "display_name": "Orchestrator Agent",
+          "source": "Orchestrator Agent"
+         },
+         "icon": "Network",
+         "allow_markdown": false,
+         "positive_feedback": null,
+         "state": "complete",
+         "targets": [],
+         "usage": null,
+         "build_duration": null
+        },
+        "category": "message",
+        "content_blocks": [
+         {
+          "title": "Agent Steps",
+          "contents": [
+           {
+            "type": "tool_use",
+            "duration": null,
+            "header": {
+             "title": "Agent **Analyst**",
+             "icon": "Bot"
+            },
+            "name": "Analyst",
+            "tool_input": {
+             "input_value": "ask the Analyst to use evaluate_expression"
+            },
+            "output": {
+             "coworkai_agent": "Analyst",
+             "input": "ask the Analyst to use evaluate_expression",
+             "output": "Final answer: {\"error\": \"Invalid expression: invalid syntax (<unknown>, line 1)\", \"input\": \"ask the Analyst to use evaluate_expression\"}",
+             "tools_called": [
+              {
+               "name": "evaluate_expression",
+               "input_parameters": {
+                "expression": "ask the Analyst to use evaluate_expression"
+               },
+               "output": {
+                "error": "Invalid expression: invalid syntax (<unknown>, line 1)",
+                "input": "ask the Analyst to use evaluate_expression"
+               },
+               "agent": "Analyst"
+              }
+             ]
+            },
+            "error": null
+           },
+           {
+            "type": "text",
+            "duration": null,
+            "header": {},
+            "text": "Final answer: {\"coworkai_agent\": \"Analyst\", \"input\": \"ask the Analyst to use evaluate_expression\", \"output\": \"Final answer: {\\\"error\\\": \\\"Invalid expression: invalid syntax (<unknown>, line 1)\\\", \\\"input\\\": \\\"ask the Analyst to use evaluate_expression\\\"}\", \"tools_called\": [{\"name\": \"evaluate_expression\", \"input_parameters\": {\"expression\": \"ask the Analyst to use evaluate_expression\"}, \"output\": {\"error\": \"Invalid expression: invalid syntax (<unknown>, line 1)\", \"input\": \"ask the Analyst to use evaluate_expression\"}, \"agent\": \"Analyst\"}]}"
+           }
+          ],
+          "allow_markdown": true,
+          "media_url": null
+         }
+        ],
+        "session_metadata": {
+         "graph_run_id": "3f05448c-6fb2-41a7-902a-3f1a14fa2869"
+        },
+        "id": "61180557-f1be-4634-be7c-b88a7fd67ddb",
+        "flow_id": "00000000-0000-0000-0000-000000000000",
+        "run_id": "00000000-0000-0000-0000-000000000000",
+        "duration": null
+       },
+       "default_value": "",
+       "sender": "Machine",
+       "sender_name": "AI",
+       "files": [],
+       "session_id": "fx2",
+       "context_id": "",
+       "run_id": "00000000-0000-0000-0000-000000000000",
+       "timestamp": "2026-11-13 16:15:06.719748 UTC",
+       "flow_id": "00000000-0000-0000-0000-000000000000",
+       "error": false,
+       "edit": false,
+       "properties": {
+        "text_color": null,
+        "background_color": null,
+        "edited": false,
+        "source": {
+         "id": "ext:coworkai:OrchestratorAgentComponent@extra-DAaKl",
+         "display_name": "Orchestrator Agent",
+         "source": "Orchestrator Agent"
+        },
+        "icon": "Network",
+        "allow_markdown": false,
+        "positive_feedback": null,
+        "state": "complete",
+        "targets": [],
+        "usage": null,
+        "build_duration": null
+       },
+       "category": "message",
+       "content_blocks": [
+        {
+         "title": "Agent Steps",
+         "contents": [
+          {
+           "type": "tool_use",
+           "duration": null,
+           "header": {
+            "title": "Agent **Analyst**",
+            "icon": "Bot"
+           },
+           "name": "Analyst",
+           "tool_input": {
+            "input_value": "ask the Analyst to use evaluate_expression"
+           },
+           "output": {
+            "coworkai_agent": "Analyst",
+            "input": "ask the Analyst to use evaluate_expression",
+            "output": "Final answer: {\"error\": \"Invalid expression: invalid syntax (<unknown>, line 1)\", \"input\": \"ask the Analyst to use evaluate_expression\"}",
+            "tools_called": [
+             {
+              "name": "evaluate_expression",
+              "input_parameters": {
+               "expression": "ask the Analyst to use evaluate_expression"
+              },
+              "output": {
+               "error": "Invalid expression: invalid syntax (<unknown>, line 1)",
+               "input": "ask the Analyst to use evaluate_expression"
+              },
+              "agent": "Analyst"
+             }
+            ]
+           },
+           "error": null
+          },
+          {
+           "type": "text",
+           "duration": null,
+           "header": {},
+           "text": "Final answer: {\"coworkai_agent\": \"Analyst\", \"input\": \"ask the Analyst to use evaluate_expression\", \"output\": \"Final answer: {\\\"error\\\": \\\"Invalid expression: invalid syntax (<unknown>, line 1)\\\", \\\"input\\\": \\\"ask the Analyst to use evaluate_expression\\\"}\", \"tools_called\": [{\"name\": \"evaluate_expression\", \"input_parameters\": {\"expression\": \"ask the Analyst to use evaluate_expression\"}, \"output\": {\"error\": \"Invalid expression: invalid syntax (<unknown>, line 1)\", \"input\": \"ask the Analyst to use evaluate_expression\"}, \"agent\": \"Analyst\"}]}"
+          }
+         ],
+         "allow_markdown": true,
+         "media_url": null
+        }
+       ],
+       "duration": null,
+       "session_metadata": {
+        "graph_run_id": "3f05448c-6fb2-41a7-902a-3f1a14fa2869"
+       },
+       "text": "Final answer: {\"coworkai_agent\": \"Analyst\", \"input\": \"ask the Analyst to use evaluate_expression\", \"output\": \"Final answer: {\\\"error\\\": \\\"Invalid expression: invalid syntax (<unknown>, line 1)\\\", \\\"input\\\": \\\"ask the Analyst to use evaluate_expression\\\"}\", \"tools_called\": [{\"name\": \"evaluate_expression\", \"input_parameters\": {\"expression\": \"ask the Analyst to use evaluate_expression\"}, \"output\": {\"error\": \"Invalid expression: invalid syntax (<unknown>, line 1)\", \"input\": \"ask the Analyst to use evaluate_expression\"}, \"agent\": \"Analyst\"}]}"
+      }
+     },
+     "artifacts": {
+      "message": "Final answer: {\"coworkai_agent\": \"Analyst\", \"input\": \"ask the Analyst to use evaluate_expression\", \"output\": \"Final answer: {\\\"error\\\": \\\"Invalid expression: invalid syntax (<unknown>, line 1)\\\", \\\"input\\\": \\\"ask the Analyst to use evaluate_expression\\\"}\", \"tools_called\": [{\"name\": \"evaluate_expression\", \"input_parameters\": {\"expression\": \"ask the Analyst to use evaluate_expression\"}, \"output\": {\"error\": \"Invalid expression: invalid syntax (<unknown>, line 1)\", \"input\": \"ask the Analyst to use evaluate_expression\"}, \"agent\": \"Analyst\"}]}",
+      "sender": "Machine",
+      "sender_name": "AI",
+      "files": [],
+      "type": "object"
+     },
+     "outputs": {
+      "message": {
+       "message": "Final answer: {\"coworkai_agent\": \"Analyst\", \"input\": \"ask the Analyst to use evaluate_expression\", \"output\": \"Final answer: {\\\"error\\\": \\\"Invalid expression: invalid syntax (<unknown>, line 1)\\\", \\\"input\\\": \\\"ask the Analyst to use evaluate_expression\\\"}\", \"tools_called\": [{\"name\": \"evaluate_expression\", \"input_parameters\": {\"expression\": \"ask the Analyst to use evaluate_expression\"}, \"output\": {\"error\": \"Invalid expression: invalid syntax (<unknown>, line 1)\", \"input\": \"ask the Analyst to use evaluate_expression\"}, \"agent\": \"Analyst\"}]}",
+       "type": "text"
+      }
+     },
+     "logs": {
+      "message": []
+     },
+     "messages": [
+      {
+       "message": "Final answer: {\"coworkai_agent\": \"Analyst\", \"input\": \"ask the Analyst to use evaluate_expression\", \"output\": \"Final answer: {\\\"error\\\": \\\"Invalid expression: invalid syntax (<unknown>, line 1)\\\", \\\"input\\\": \\\"ask the Analyst to use evaluate_expression\\\"}\", \"tools_called\": [{\"name\": \"evaluate_expression\", \"input_parameters\": {\"expression\": \"ask the Analyst to use evaluate_expression\"}, \"output\": {\"error\": \"Invalid expression: invalid syntax (<unknown>, line 1)\", \"input\": \"ask the Analyst to use evaluate_expression\"}, \"agent\": \"Analyst\"}]}",
+       "sender": "Machine",
+       "sender_name": "AI",
+       "session_id": "fx2",
+       "stream_url": null,
+       "component_id": "ChatOutput-KT02l",
+       "files": [],
+       "type": "text"
+      }
+     ],
+     "timedelta": null,
+     "duration": null,
+     "component_display_name": "Chat Output",
+     "component_id": "ChatOutput-KT02l",
+     "used_frozen_result": false,
+     "token_usage": null
+    }
+   ]
+  }
+ ]
+}

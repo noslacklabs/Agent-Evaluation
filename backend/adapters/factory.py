@@ -3,6 +3,7 @@ from __future__ import annotations
 from adapters.azure_openai import AzureOpenAIAdapter
 from adapters.foundry import MicrosoftFoundryAdapter
 from adapters.framework import FrameworkAdapter
+from adapters.langflow import LangflowAdapter
 from adapters.openai_compatible import OpenAICompatibleAdapter
 from adapters.python_package import PythonPackageAdapter
 from adapters.rest import RESTAdapter
@@ -15,6 +16,7 @@ ADAPTERS = {
     "python_package": PythonPackageAdapter,
     "openai_compatible": OpenAICompatibleAdapter,
     "framework": FrameworkAdapter,
+    "langflow": LangflowAdapter,
     "azure_openai": AzureOpenAIAdapter,
     "microsoft_foundry": MicrosoftFoundryAdapter,
 }

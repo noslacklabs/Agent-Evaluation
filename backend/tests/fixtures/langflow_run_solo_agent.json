@@ -1,0 +1,211 @@
+{
+ "session_id": "fx3",
+ "outputs": [
+  {
+   "inputs": {
+    "input_value": "use get_current_date"
+   },
+   "outputs": [
+    {
+     "results": {
+      "message": {
+       "text_key": "text",
+       "data": {
+        "timestamp": "2026-11-13 16:15:07.710163 UTC",
+        "sender": "Machine",
+        "sender_name": "AI",
+        "session_id": "fx3",
+        "context_id": "",
+        "text": "Final answer: Error: 'No time zone found with key use get_current_date'",
+        "files": [],
+        "error": false,
+        "edit": false,
+        "properties": {
+         "text_color": null,
+         "background_color": null,
+         "edited": false,
+         "source": {
+          "id": "ext:coworkai:OrchestratorAgentComponent@extra-DAaKl",
+          "display_name": "Orchestrator Agent",
+          "source": "Orchestrator Agent"
+         },
+         "icon": "Network",
+         "allow_markdown": false,
+         "positive_feedback": null,
+         "state": "complete",
+         "targets": [],
+         "usage": null,
+         "build_duration": null
+        },
+        "category": "message",
+        "content_blocks": [
+         {
+          "title": "Agent Steps",
+          "contents": [
+           {
+            "type": "tool_use",
+            "duration": null,
+            "header": {
+             "title": "Agent **Researcher**",
+             "icon": "Bot"
+            },
+            "name": "Researcher",
+            "tool_input": {
+             "input_value": "use get_current_date"
+            },
+            "output": {
+             "coworkai_agent": "Researcher",
+             "input": "use get_current_date",
+             "output": "Final answer: Error: 'No time zone found with key use get_current_date'",
+             "tools_called": [
+              {
+               "name": "get_current_date",
+               "input_parameters": {
+                "timezone": "use get_current_date"
+               },
+               "output": "Error: 'No time zone found with key use get_current_date'",
+               "agent": "Researcher"
+              }
+             ],
+             "solo": true
+            },
+            "error": null
+           },
+           {
+            "type": "text",
+            "duration": null,
+            "header": {},
+            "text": "Final answer: Error: 'No time zone found with key use get_current_date'"
+           }
+          ],
+          "allow_markdown": true,
+          "media_url": null
+         }
+        ],
+        "session_metadata": {
+         "graph_run_id": "f442505d-02d0-4c49-837c-d70a0cdb7928"
+        },
+        "id": "8cb49d39-8bfc-491e-9cec-a2b8ac8e222c",
+        "flow_id": "00000000-0000-0000-0000-000000000000",
+        "run_id": "00000000-0000-0000-0000-000000000000",
+        "duration": null
+       },
+       "default_value": "",
+       "sender": "Machine",
+       "sender_name": "AI",
+       "files": [],
+       "session_id": "fx3",
+       "context_id": "",
+       "run_id": "00000000-0000-0000-0000-000000000000",
+       "timestamp": "2026-11-13 16:15:07.710163 UTC",
+       "flow_id": "00000000-0000-0000-0000-000000000000",
+       "error": false,
+       "edit": false,
+       "properties": {
+        "text_color": null,
+        "background_color": null,
+        "edited": false,
+        "source": {
+         "id": "ext:coworkai:OrchestratorAgentComponent@extra-DAaKl",
+         "display_name": "Orchestrator Agent",
+         "source": "Orchestrator Agent"
+        },
+        "icon": "Network",
+        "allow_markdown": false,
+        "positive_feedback": null,
+        "state": "complete",
+        "targets": [],
+        "usage": null,
+        "build_duration": null
+       },
+       "category": "message",
+       "content_blocks": [
+        {
+         "title": "Agent Steps",
+         "contents": [
+          {
+           "type": "tool_use",
+           "duration": null,
+           "header": {
+            "title": "Agent **Researcher**",
+            "icon": "Bot"
+           },
+           "name": "Researcher",
+           "tool_input": {
+            "input_value": "use get_current_date"
+           },
+           "output": {
+            "coworkai_agent": "Researcher",
+            "input": "use get_current_date",
+            "output": "Final answer: Error: 'No time zone found with key use get_current_date'",
+            "tools_called": [
+             {
+              "name": "get_current_date",
+              "input_parameters": {
+               "timezone": "use get_current_date"
+              },
+              "output": "Error: 'No time zone found with key use get_current_date'",
+              "agent": "Researcher"
+             }
+            ],
+            "solo": true
+           },
+           "error": null
+          },
+          {
+           "type": "text",
+           "duration": null,
+           "header": {},
+           "text": "Final answer: Error: 'No time zone found with key use get_current_date'"
+          }
+         ],
+         "allow_markdown": true,
+         "media_url": null
+        }
+       ],
+       "duration": null,
+       "session_metadata": {
+        "graph_run_id": "f442505d-02d0-4c49-837c-d70a0cdb7928"
+       },
+       "text": "Final answer: Error: 'No time zone found with key use get_current_date'"
+      }
+     },
+     "artifacts": {
+      "message": "Final answer: Error: 'No time zone found with key use get_current_date'",
+      "sender": "Machine",
+      "sender_name": "AI",
+      "files": [],
+      "type": "object"
+     },
+     "outputs": {
+      "message": {
+       "message": "Final answer: Error: 'No time zone found with key use get_current_date'",
+       "type": "text"
+      }
+     },
+     "logs": {
+      "message": []
+     },
+     "messages": [
+      {
+       "message": "Final answer: Error: 'No time zone found with key use get_current_date'",
+       "sender": "Machine",
+       "sender_name": "AI",
+       "session_id": "fx3",
+       "stream_url": null,
+       "component_id": "ChatOutput-KT02l",
+       "files": [],
+       "type": "text"
+      }
+     ],
+     "timedelta": null,
+     "duration": null,
+     "component_display_name": "Chat Output",
+     "component_id": "ChatOutput-KT02l",
+     "used_frozen_result": false,
+     "token_usage": null
+    }
+   ]
+  }
+ ]
+}

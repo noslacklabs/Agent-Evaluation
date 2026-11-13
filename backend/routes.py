@@ -32,11 +32,14 @@ def _validate_agent_config(connection_type: str, config: dict[str, Any]) -> None
         "websocket": ["websocket_url"],
         "openai_compatible": ["base_url", "model"],
         "framework": ["preset", "base_url"],
+        "langflow": ["base_url", "flow_id"],
         "azure_openai": ["endpoint", "deployment"],
         "microsoft_foundry": ["project_endpoint"],
         "python_package": ["entrypoint"],
     }
     missing = [field for field in required.get(connection_type, []) if not config.get(field)]
+    if connection_type == "framework" and config.get("preset") == "langflow" and not config.get("flow_id"):
+        missing.append("flow_id")
     if connection_type == "microsoft_foundry" and not (config.get("agent_name") or config.get("agent_id")):
         missing.append("agent_name or agent_id")
     if missing:

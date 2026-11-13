@@ -11,6 +11,7 @@ ConnectionType = Literal[
     "python_package",
     "openai_compatible",
     "framework",
+    "langflow",
     "azure_openai",
     "microsoft_foundry",
 ]
